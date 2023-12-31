@@ -1,0 +1,27 @@
+[
+    {"nombre":"La Sirenita",
+    "duracion":"Hora y media",
+    "disponible":[
+        {"nombre":"Lunes","precio":5},
+        {"nombre":"Miercoles","precio":5},
+        {"nombre":"Jueves","precio":5}]},
+    {"nombre":"La Llorona",
+    "duracion":"1 Hora",
+    "disponible":[
+        {"nombre":"Lunes","precio":5},
+        {"nombre":"Martes","precio":4},
+        {"nombre":"Sabado","precio":10},
+        {"nombre":"Domingo","precio":10}]},
+    {"nombre":"Nemo",
+    "duracion":"2 Horas",
+    "disponible":[
+        {"nombre":"Lunes","precio":5},
+        {"nombre":"Jueves","precio":5},
+        {"nombre":"Viernes","precio":7}]},
+    {"nombre":"Goku",
+    "duracion":"Hora y cuarto",
+    "disponible":[
+        {"nombre":"Lunes","precio":5},
+        {"nombre":"Sabado","precio":10},
+        {"nombre":"Domingo","precio":10}]}
+]

@@ -1,0 +1,52 @@
+body > section {
+    display: inline-block;
+    width: 45%;
+}
+
+.tablaPeliculas {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cartillaPelicula {
+    width: 30%;
+    margin: 1%;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.tablaHorarios {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cartillaHorario {
+    width: 30%;
+    margin: 1%;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.boton {
+    margin-top: 10px;
+    width: 50%;
+    height: 30px;
+}
+
+.cartillaCarrito, .totalCarrito {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    margin: 5px auto;
+}
+.cartillaCarrito h3 {
+    margin-left: 5%;
+    width: 30%;
+}
+.cartillaCarrito div {
+    width: 30%;
+}
+
+.totalCarrito h3, .totalCarrito p {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30%;
+}
