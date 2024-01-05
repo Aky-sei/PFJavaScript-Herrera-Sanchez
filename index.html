@@ -11,8 +11,6 @@
 <body>
     <h1 class="titulo">CINE DE LA AMISTAD</h1>
     <section>
-        <h2>Por favor, ingese su nombre:</h2>
-        <input type="text" id="inputNombre">
         <h2>Escoga la pelicula que desea ver:</h2>
         <section class="tablaPeliculas" id="sectionPeliculas"></section>
         <h2>Escoga el horario que desea:</h2>
@@ -23,6 +21,10 @@
         <h1>TU COMPRA:</h1>
         <section class="carrito" id="carrito"></section>
         <div class="totalCarrito" id="totalCarrito"></div>
+        <div class="totalCarrito">
+            <p>Ingrese un cupón de descuento: <input type="text" id="descuento"></p>
+            <p id="descuentoActivo">Actualmente no hay ningun descuento aplicado</p>
+        </div>
         <button class="boton" id="botonConfirmar">CONFIRMAR COMPRA</button>
     </section>
     <!-- Se importan las 2 librerias uqe usarán en el proyecto -->
